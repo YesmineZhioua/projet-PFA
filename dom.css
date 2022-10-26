@@ -1,0 +1,126 @@
+
+    body{
+      background-color: white!important;
+    }
+    .navsection{
+      padding-top: 100px;
+  
+      text-align:center;
+  
+      font-size: 30px;
+      color: rgb(233, 110, 110);
+    }
+  
+    .images{
+      width: 1200px;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+     margin-left: 50px;
+      padding: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      
+    }
+    img{
+  
+      margin: 10px;
+  
+      border-radius: 6px;
+  
+    }
+    .title{
+      font-size: 50px;
+    }
+    
+    .imaget{
+      margin: 10px;
+      background-color: #e8e0d5;
+      margin-right: 50px;
+      border-radius: 6px;
+      overflow: hidden;
+      transition: box-shadow .2s ease 0s;
+      width: 500px;
+      height: 300px;
+      display: flex;
+      border: 1.5px solid #a4806e;
+      box-shadow: 0 3px 3px 0 #d6c7b3 ;
+      
+  
+  
+    }
+    .price{
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+  
+    .imaget:hover{
+      box-shadow: 0 5px 10px 0 #b1936b ;
+  
+  
+    }
+   
+  .imaget .producttitle{
+      color: black;
+      font-weight: lighter;
+      margin-top: 10px;
+      padding-bottom: 8px;
+  
+    }
+    .imaget div{
+  
+  
+      align-items: center;
+  
+      justify-content: space-between;
+      color: black;
+  
+  }
+  .fa-heart{
+      margin: 10px;
+      width: 30px;
+  }
+  .fa-trash{
+      margin: 10px;
+      width: 30px;
+  
+  }
+  
+  .fass{
+      display: flex;
+      padding-top: 100px;
+  }
+  .imaget .pricee{
+      padding-top: 20px;
+  }
+  .pricehr{
+      width: 120px;
+      border: 1px solid black;
+      border-radius: 5px;
+  }
+
+.buttns{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button{
+    margin: 20px 35px;
+    background-color: white;
+    width:30%;
+    font-size: 17px;
+    border-radius: 20px;
+    border: 1px solid  rgb(77, 62, 77);
+    padding:5px;
+    margin: 4px;
+    transition: 1s;
+}
+.button:hover{
+    color: white;
+    background-color: #6b4567;
+    transition: 1s;
+}
+.button a{
+    text-decoration: none;
+    color: rgb(206, 179, 143) ;
+}

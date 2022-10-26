@@ -1,0 +1,63 @@
+
+.cordonnee{
+    display: flex;
+    width: 500px;
+    height: 80px;
+}
+.hrdetails{
+    width: 300px;
+    margin-left: 0%;
+   margin-top: 0px;
+}
+.id{
+    padding-bottom: 0;
+}
+.btn{
+    background-color: rgb(56, 54, 54);
+    color:antiquewhite;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+.col-2 h1{
+    
+    text-decoration: underline;
+
+}
+.row1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.single-product {
+    padding-top: 80px;
+}
+.single-product .col-2 img{
+    padding: 0;
+
+}
+
+
+.single-product h3{
+    margin: 20px 0;
+    font-size: 22px;
+    font-weight: bold;
+}
+.descriptionp{
+    margin-bottom: 200px;
+}
+
+.viewmore{
+    display: flex;
+    display: flex;
+    margin-left: 300px;
+    width: 150px;
+    height: auto;
+    padding: 2px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    background-color: black;
+    color:aliceblue;
+}
